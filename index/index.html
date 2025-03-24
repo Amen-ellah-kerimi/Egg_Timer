@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egg Timer</title>
+    <link rel="stylesheet" href="../styles/timer.css" />
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/aside.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <img src="../res/images/egg.png" alt="too bad" />
+          </td>
+          <td>
+            <h1>EGG TIMER</h1> 
+            <h4>Boiled eggs are a quick and easy way to bulk up any meal !</h4>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <div id="content">
+      <div id="center">
+        <div id="timer_display">
+          <h1 id="time">00:00</h1>
+        </div>
+        <div id="controls">
+          <input type="number" id="minutes-input" placeholder="Minutes" />
+          <button id="start-button">Start</button>
+          <button id="reset-button">Reset</button>
+        </div>
+      </div>
+      <aside>
+        <div id="custom_input">
+          <table>
+            <tr>
+              <td><button id="3mins">3 MINS</button></td>
+              <td><h6>REALLY SOFT YOLK & ALMOST SET WHITE</h6></td>
+            </tr>
+            <tr>
+              <td><button id="4mins">4 MINS</button></td>
+              <td><h6>RUNNY YOLK & LIGHTLY SET WHITE</h6></td>
+            </tr>
+            <tr>
+              <td><button id="5mins">5 MINS</button></td>
+              <td><h6>FIRM WHITE & GOOEY YOLK</h6></td>
+            </tr>
+            <tr>
+              <td><button id="6mins">6 MINS</button></td>
+              <td><h6>SOFTLY SET & HARD BOILED WHITE</h6></td>
+            </tr>
+            <tr>
+              <td><button id="7mins">7 MINS</button></td>
+              <td><h6>HARD BOILED</h6></td>
+            </tr>
+            <tr>
+              <td><button id="10mins">10 MINS</button></td>
+              <td><h6>FULLY HARD-BOILED</h6></td>
+            </tr>
+          </table>
+        </div>
+        <div id="preset"></div>
+      </aside>
+      
+    </div>
+    <script src="../scripts/timer.js"></script>
+  </body>
+</html>

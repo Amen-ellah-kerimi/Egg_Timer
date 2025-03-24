@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('../styles/fonts/Press_To_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+}
+body{
+    background-color: #60CDF4;
+    color: #E9F8FF;
+    font-family: 'Press Start 2P';
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    line-height: 0.5cm;
+}
+h1 :hover{
+    scale: 1.2px;
+}
+#content {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9F8FF;
+    color: #60CDF4;
+    padding: 30px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#controls input {
+    padding: 20px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #60CDF4;
+    border-radius: 5px;
+    background-color: #E9F8FF;
+    color: #60CDF4;
+}
+
+#controls button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    background-color: #60CDF4;
+    color: #E9F8FF;
+    border: 2px solid #E9F8FF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    width: 100px; 
+}
+
+#controls button:hover {
+    background-color: #E9F8FF;
+    color: #60CDF4;
+    border: 2px solid #60CDF4;
+}
+
+#minutes-input {
+    font-family: 'Press Start 2P', cursive;
+    font-size: xx-small;
+}
