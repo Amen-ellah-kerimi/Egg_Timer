@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Press Start 2P';
-    src: url('../styles/fonts/Press_To_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+    src: url('../res/fonts/Press_To_Start_2P/PressStart2P-Regular.ttf') format('truetype');
 }
 body{
     background-color: #60CDF4;
